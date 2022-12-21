@@ -111,3 +111,79 @@ a {
 
 /* SEZIONE 1 */
 
+#section-one {
+    padding-top: 60px;
+}
+
+#section-one .large-width {
+    margin-top: 60px;
+}
+
+#section-one .title{
+    font-size: 58px;
+}
+
+#jumbo {
+    position: relative;
+    bottom: -50px;
+}
+
+#jumbo-img {
+    float: right;
+    width: 650px;
+}
+
+#jumbo-text {
+    float: left;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+#jumbo-text i {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+#jumbo-text p {
+    margin-bottom: 25px;
+}
+
+#jumbo-text .button {
+    margin-bottom: 8px;
+}
+
+/* TITOLO E LARGHEZZE ELEMENTI */
+
+.title {
+    font-weight: bold;
+}
+
+.title.medium {
+    font-size: 30px;
+}
+
+
+.text.small {
+    font-size: 11px;
+}
+
+.text.medium {
+    font-size: 12px;
+}
+
+
+.large-width {
+    width: 1000px;
+    margin: auto;
+}
+
+
+.light-blue {
+    background-color: #BACEE5;
+}
+
+
+
+
+
