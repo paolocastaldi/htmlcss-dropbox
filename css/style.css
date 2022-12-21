@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 ul {
 
     list-style-type: none;
@@ -11,6 +17,10 @@ ul {
 
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    width: 50px;
 }
 
 /* HEADER */
@@ -163,6 +173,9 @@ a {
     font-size: 30px;
 }
 
+.title.small {
+    font-size: 20px;
+}
 
 .text.small {
     font-size: 11px;
@@ -183,7 +196,137 @@ a {
     background-color: #BACEE5;
 }
 
+/* SEZIONE 2 */
 
+#second-section .medium-width{
+    padding-top: 140px;
+}
+
+#fatturazioni {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#fatturazioni label {
+    display: inline-block;
+}
+
+.radio-container {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.plans {
+    margin-top: 10px;
+}
+
+.plan {
+    float: left;
+    border: 1px solid #CFCFD2;
+    margin-bottom: 5%;
+}
+
+.plan.long {
+    width: 30%;
+    height: 800px;
+}
+
+.plan.large {
+    width: 100%;
+}
+
+.plan-container {
+    padding: 20px;
+    position: relative;
+}
+
+.plan-type {
+    border-bottom: 1px solid #CFCFD2;
+    text-align: center;
+    padding: 8px;
+    font-size: 13px;
+}
+
+.plan-price {
+    font-weight: bold;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.plan-price span {
+    color: gray;
+    font-weight: lighter;
+    font-size: 11px;
+}
+
+.plan-info {
+    margin-top: 25px;
+}
+
+.plan-info i {
+    position: absolute;
+    left: 20px;
+    margin-top: 2px;
+}
+
+.plan-users, .plan-storage, .plan-functions {
+    margin-bottom: 20px;
+}
+
+.plan-functions {
+    margin-bottom: 35px;
+}
+
+.plan-info a.button {
+    padding: 0.5em 28px;
+    margin-bottom: 20px;
+}
+
+.plan .blue-link {
+    margin-bottom: 20px;
+}
+
+.plan hr {
+    margin-bottom: 25px;
+}
+
+.move-right, .highlight {
+    padding-left: 17px;
+}
+
+.highlights-title {
+    font-weight: bold;
+}
+
+.highlight {
+    margin: 20px 0;
+}
+
+.highlight i {
+    color: #3A61F8;
+}
+
+#enterprise-info {
+    font-weight: bold;
+}
+
+.plan.large .title {
+    margin-bottom: 10px;
+}
+
+.plan.large p {
+    margin-top: 20px;
+}
+
+.plan.large a {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 0.5em 50px;
+}
 
 
 
