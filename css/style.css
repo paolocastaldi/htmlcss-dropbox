@@ -6,7 +6,7 @@
 
 .clearfix::after {
     content: "";
-    display: table;
+    display: flex;
     clear: both;
 }
 
@@ -34,6 +34,7 @@ header .container {
     min-width: 960px;
     border-bottom: 1px solid #CFCFD2;
     z-index: 999;
+    display: flex;
 }
 
 header .logo, header ul, header a {
@@ -61,7 +62,7 @@ header .button {
 }
 
 .logo {
-    float: left;
+    
     margin-right: 15px;
     width: 100px;
 }
@@ -171,6 +172,7 @@ a {
 
 .title.medium {
     font-size: 30px;
+    margin-top: 10%;
 }
 
 .title.small {
@@ -326,6 +328,61 @@ a {
     top: 20px;
     right: 20px;
     padding: 0.5em 50px;
+}
+
+#find-partner {
+    margin-top: 70px;
+}
+
+#find-partner img {
+    width: 55%;
+    float: left;
+}
+
+#find-partner-info {
+    float: left;
+    width: 45%;
+    padding: 5%;
+}
+
+#find-partner-info .title {
+    font-size: 17px;
+}
+
+#find-partner-info p {
+    margin: 20px 0;
+    line-height: 20px;
+}
+
+.business-operations {
+    margin-top: 30px;
+}
+
+.operation {
+    float: left;
+    width: 30%;
+    margin-bottom: 80px;
+}
+
+.operation img {
+    width: 100%;
+}
+
+.operation .title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#section-four {
+    height: 300px;
+}
+
+#section-four .title {
+    margin-bottom: 15px;
+}
+
+#section-four .blue-link {
+    margin-bottom: 35px;
 }
 
 
